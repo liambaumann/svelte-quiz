@@ -1,13 +1,14 @@
 <script>
-
+    export let answerText;
+    export let checkAnswerHandler;
 </script>
 
 <style>
     .Answer {
-        
+
     }
 </style>
 
-<div class="Anwser">
-    
-</div>
+<button class="Answer" on:click="{checkAnswerHandler(answerText)}">
+    {answerText}
+</button>

@@ -1,11 +1,13 @@
 <script>
-
+    export let questionText;
 </script>
 
 <style>
+    .Question {
 
+    }
 </style>
 
-<div class="Question">
-    
-</div>
+<h1 class="Question">
+    {questionText}
+</h1>
